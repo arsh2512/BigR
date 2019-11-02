@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DealList" rowHeight="107" id="KGk-i7-Jjw" customClass="DealListTableViewCell" customModule="MetroCRM" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="107"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="384" height="106.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flower" translatesAutoresizingMaskIntoConstraints="NO" id="QeJ-1p-MoN">
+                        <rect key="frame" x="6" y="17" width="115" height="72.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="115" id="fNq-k7-p47"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNT-fM-yye">
+                        <rect key="frame" x="129" y="17" width="229" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="5kf-ia-Aih"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cv-XO-pyz">
+                        <rect key="frame" x="129" y="35" width="21.5" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="GJE-AO-x0p"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lha-7W-kxx">
+                        <rect key="frame" x="160" y="35" width="25" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="c0j-cl-sCa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="9"/>
+                        <color key="textColor" red="0.81856894489999998" green="0.18318058449999999" blue="0.1961322845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucA-n4-RXT">
+                        <rect key="frame" x="356.5" y="33.5" width="21.5" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="XsA-8D-NFG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h3D-E2-EyQ">
+                        <rect key="frame" x="273" y="38.5" width="105" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="6iT-vV-Mhf"/>
+                            <constraint firstAttribute="width" constant="105" id="mv1-hE-1aU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="10"/>
+                        <state key="normal" title="Add to Wishlist" image="wishlist">
+                            <color key="titleColor" red="0.81856894489999998" green="0.18318058449999999" blue="0.1961322845" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="didClickAddToWishList:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="0LC-a5-Dbu"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="QeJ-1p-MoN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="4c2-WD-hFY"/>
+                    <constraint firstItem="4cv-XO-pyz" firstAttribute="top" secondItem="qNT-fM-yye" secondAttribute="bottom" constant="3" id="66n-H4-SUc"/>
+                    <constraint firstItem="Lha-7W-kxx" firstAttribute="leading" secondItem="4cv-XO-pyz" secondAttribute="trailing" constant="9.5" id="8ge-tJ-KGB"/>
+                    <constraint firstAttribute="trailing" secondItem="h3D-E2-EyQ" secondAttribute="trailing" constant="6" id="8uh-kJ-adr"/>
+                    <constraint firstItem="qNT-fM-yye" firstAttribute="leading" secondItem="QeJ-1p-MoN" secondAttribute="trailing" constant="8" id="IjU-vd-PZt"/>
+                    <constraint firstItem="ucA-n4-RXT" firstAttribute="centerY" secondItem="Lha-7W-kxx" secondAttribute="centerY" id="O6K-hI-IMB"/>
+                    <constraint firstItem="4cv-XO-pyz" firstAttribute="leading" secondItem="QeJ-1p-MoN" secondAttribute="trailing" constant="8" id="P2v-q1-pY5"/>
+                    <constraint firstAttribute="trailing" secondItem="ucA-n4-RXT" secondAttribute="trailing" constant="6" id="UeV-1j-h9p"/>
+                    <constraint firstItem="QeJ-1p-MoN" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="XCv-2f-Aw7"/>
+                    <constraint firstAttribute="bottom" secondItem="QeJ-1p-MoN" secondAttribute="bottom" constant="17" id="gZ6-Gx-YU5"/>
+                    <constraint firstItem="h3D-E2-EyQ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="v8R-TD-Uk1"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="qNT-fM-yye" secondAttribute="trailing" constant="10" id="vYg-vP-pM1"/>
+                    <constraint firstItem="qNT-fM-yye" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="6" id="vYv-tw-yJ1"/>
+                    <constraint firstItem="Lha-7W-kxx" firstAttribute="top" secondItem="qNT-fM-yye" secondAttribute="bottom" constant="3" id="wUY-RQ-bAF"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="boughtLbl" destination="ucA-n4-RXT" id="GIB-CV-adE"/>
+                <outlet property="discountPriceLbl" destination="Lha-7W-kxx" id="h0t-AL-QFv"/>
+                <outlet property="originalPriceLbl" destination="4cv-XO-pyz" id="jlx-P8-hYM"/>
+                <outlet property="voucherImageView" destination="QeJ-1p-MoN" id="c09-6M-5h0"/>
+                <outlet property="voucherTitle" destination="qNT-fM-yye" id="ZTf-Vw-Mjy"/>
+                <outlet property="wishListBtn" destination="h3D-E2-EyQ" id="kL6-5q-aJ6"/>
+            </connections>
+            <point key="canvasLocation" x="188.80000000000001" y="183.05847076461771"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="flower" width="1830" height="1300"/>
+        <image name="wishlist" width="15" height="15"/>
+    </resources>
+</document>

@@ -1,0 +1,4 @@
+framework module RoseLib {
+  header "RoseLib-Swift.h"
+  requires objc
+}

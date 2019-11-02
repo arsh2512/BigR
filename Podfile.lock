@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (4.7.2)
+  - DropDown (2.3.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - DropDown
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DropDown
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  DropDown: 7f87abecc28f9b4edad810fe1211c5c018c257e5
+
+PODFILE CHECKSUM: 0a58f112f34cbf6bb01308bc6f18b77f07e46ef4
+
+COCOAPODS: 1.5.2
